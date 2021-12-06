@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
+
+#info {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#info h1 {
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+#photo {
+    float: right;
+    width: 350px;
+}
+#info a {
+    color: #999999;
+    text-decoration: none;
+    margin-right: 50px;
+}
