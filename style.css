@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia&display=swap');
-
-#info {
+.container {
     width: 70%;
     margin: 0 auto;
+}
+#info {
     font-size: 20px;
 }
 #info h1 {
@@ -18,4 +19,42 @@
     color: #999999;
     text-decoration: none;
     margin-right: 50px;
+}
+#portfolio {
+    clear: both;
+}
+#portfolio h2 {
+    text-align: center;
+}
+.portfolio__item {
+    width: 30%;
+    position: relative;
+}
+.portfolio__item img{
+    width: 100%;
+}
+.portfolio__hover {
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+    height: 90%;
+    background-color: #fff;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.portfolio__hover p {
+    font-size: 36px;
+}
+.portfolio__item a {
+    text-decoration: none;
+    color: black;
+}
+.portfolio__item:hover .portfolio__hover{
+    opacity: 1;
 }
